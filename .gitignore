@@ -11,7 +11,9 @@
 .mtj.tmp/
 
 # Package Files #
-*.jar
+# in reality no needed as gradle builds in a separate directory
+# needs to keep the jar for graddle wrapper
+# *.jar
 *.war
 *.ear
 *.zip
